@@ -62,7 +62,7 @@
                                   fabs(rightTop.x - topLeft.x) + 1,
                                   fabs(bottomRight.y - topLeft.y) + 1);
     innerRect.origin = topLeft;
-    [[NSColor colorWithCalibratedRed:0.86 green: 0.88 blue: 0.91 alpha:1.0] set];
+    [[NSColor colorWithDeviceRed:0.86 green: 0.88 blue: 0.91 alpha:1.0] set];
     NSRectFill(innerRect);
     
     
@@ -79,7 +79,7 @@
      */
     
     if ([self isHighlighted]) {
-        [[NSColor colorWithCalibratedRed: 0.75 green: 0.72 blue: 0.74 alpha:1.0] set];
+        [[NSColor colorWithDeviceRed: 0.75 green: 0.72 blue: 0.74 alpha:1.0] set];
         
         /* draw top and left highlight inner borders */
         NSBezierPath *path = [NSBezierPath bezierPath];
@@ -92,7 +92,7 @@
         [path stroke];
         
         /* draw bottom and right inner borders */
-        [[NSColor colorWithCalibratedRed: 0.96 green: 0.96 blue: 0.97 alpha:1.0] set];
+        [[NSColor colorWithDeviceRed: 0.96 green: 0.96 blue: 0.97 alpha:1.0] set];
         path = [NSBezierPath bezierPath];
         [path moveToPoint:innerRightBottom];
         [path lineToPoint:innerLeftBottom];
@@ -101,7 +101,7 @@
         [path closePath];
         [path stroke];
     }else{
-        [[NSColor colorWithCalibratedRed: 0.96 green: 0.96 blue: 0.97 alpha:1.0] set];
+        [[NSColor colorWithDeviceRed: 0.96 green: 0.96 blue: 0.97 alpha:1.0] set];
         /* draw top and left highlight inner borders */
         NSBezierPath *path = [NSBezierPath bezierPath];
         
@@ -113,7 +113,7 @@
         [path stroke];
         
         /* draw bottom and right inner borders */
-        [[NSColor colorWithCalibratedRed: 0.75 green: 0.72 blue: 0.74 alpha:1.0] set];
+        [[NSColor colorWithDeviceRed: 0.75 green: 0.72 blue: 0.74 alpha:1.0] set];
         path = [NSBezierPath bezierPath];
         [path moveToPoint:innerRightBottom];
         [path lineToPoint:innerLeftBottom];
