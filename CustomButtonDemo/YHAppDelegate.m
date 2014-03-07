@@ -16,6 +16,6 @@
 }
 
 - (IBAction)setButtonHeight:(id)sender{
-    [sender setFrameSize:NSMakeSize(100, 100)];
+    //[sender setFrameSize:NSMakeSize(100, 100)];
 }
 @end
