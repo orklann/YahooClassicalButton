@@ -12,4 +12,5 @@
 
 @property (assign) IBOutlet NSWindow *window;
 
+- (IBAction)setButtonHeight:(id)sender;
 @end

@@ -15,4 +15,7 @@
     // Insert code here to initialize your application
 }
 
+- (IBAction)setButtonHeight:(id)sender{
+    [sender setFrameSize:NSMakeSize(100, 100)];
+}
 @end

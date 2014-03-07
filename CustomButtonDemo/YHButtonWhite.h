@@ -1,5 +1,5 @@
 //
-//  YHButtonCell.h
+//  YHButtonWhite.h
 //  CustomButtonDemo
 //
 //  Created by aaron on 3/7/14.
@@ -8,6 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface YHButtonCell : NSButtonCell
+@interface YHButtonWhite : NSButton
 
 @end

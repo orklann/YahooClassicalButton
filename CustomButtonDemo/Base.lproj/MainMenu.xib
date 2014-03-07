@@ -656,20 +656,23 @@
                 <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CvU-BO-Dd1" customClass="YHButton">
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CvU-BO-Dd1" customClass="YHButtonRed">
                         <rect key="frame" x="139" y="242" width="112" height="23"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="squareTextured" title="MAKE ICON Text" bezelStyle="texturedSquare" imagePosition="overlaps" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="bci-c0-BxK">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" size="10" name="LucidaGrande"/>
                         </buttonCell>
+                        <connections>
+                            <action selector="setButtonHeight:" target="494" id="u6u-2m-gI0"/>
+                        </connections>
                     </button>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="05T-r7-zP9" customClass="ExampleButton">
-                        <rect key="frame" x="333" y="230" width="70" height="25"/>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="05T-r7-zP9" customClass="YHButtonWhite">
+                        <rect key="frame" x="333" y="230" width="70" height="22"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="squareTextured" title="Button" bezelStyle="texturedSquare" imagePosition="overlaps" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="wkP-BR-yQr">
+                        <buttonCell key="cell" type="squareTextured" title="Press Me" bezelStyle="texturedSquare" imagePosition="overlaps" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="wkP-BR-yQr">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
+                            <font key="font" size="10" name="LucidaGrande"/>
                         </buttonCell>
                     </button>
                 </subviews>

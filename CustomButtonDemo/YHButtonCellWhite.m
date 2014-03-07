@@ -1,19 +1,15 @@
 //
-//  YHButtonCell.m
+//  YHButtonCellWhite.m
 //  CustomButtonDemo
 //
 //  Created by aaron on 3/7/14.
 //  Copyright (c) 2014 Pixel Egg. All rights reserved.
 //
 
-#import "YHButtonCell.h"
+#import "YHButtonCellWhite.h"
+#import "YHTools.h"
 
-void drawPixelAtPoint(NSPoint p){
-    NSRect rect = NSMakeRect(p.x, p.y, 1, 1);
-    NSRectFill(rect);
-}
-
-@implementation YHButtonCell
+@implementation YHButtonCellWhite
 
 - (void)drawBezelWithFrame:(NSRect)frame inView:(NSView *)controlView{
     
@@ -53,7 +49,7 @@ void drawPixelAtPoint(NSPoint p){
     [[NSColor blackColor] set];
     
     [borderPath stroke];
-
+    
     /* 4 outter corrner points */
     NSPoint topLeft = NSMakePoint(minX + 1, minY + 1 - 1);
     NSPoint leftBottom = NSMakePoint(minX + 1, maxY - 1 - 1);
@@ -66,7 +62,7 @@ void drawPixelAtPoint(NSPoint p){
                                   fabs(rightTop.x - topLeft.x) + 1,
                                   fabs(bottomRight.y - topLeft.y) + 1);
     innerRect.origin = topLeft;
-    [[NSColor colorWithCalibratedRed:0.98 green: 0.04 blue: 0.53 alpha:1.0] set];
+    [[NSColor colorWithCalibratedRed:0.86 green: 0.88 blue: 0.91 alpha:1.0] set];
     NSRectFill(innerRect);
     
     
@@ -78,12 +74,12 @@ void drawPixelAtPoint(NSPoint p){
     NSPoint innerRightTop = NSMakePoint(NSMaxX(innerRect) - 1, NSMinY(innerRect) + 1);
     
     /*=
-      = Draw button according to buttons state
-      =
+     = Draw button according to buttons state
+     =
      */
     
     if ([self isHighlighted]) {
-        [[NSColor colorWithCalibratedRed: 0.42 green: 0.22 blue: 0.33 alpha:1.0] set];
+        [[NSColor colorWithCalibratedRed: 0.75 green: 0.72 blue: 0.74 alpha:1.0] set];
         
         /* draw top and left highlight inner borders */
         NSBezierPath *path = [NSBezierPath bezierPath];
@@ -96,7 +92,7 @@ void drawPixelAtPoint(NSPoint p){
         [path stroke];
         
         /* draw bottom and right inner borders */
-        [[NSColor colorWithCalibratedRed: 1.0 green: 0.91 blue: 0.96 alpha:1.0] set];
+        [[NSColor colorWithCalibratedRed: 0.96 green: 0.96 blue: 0.97 alpha:1.0] set];
         path = [NSBezierPath bezierPath];
         [path moveToPoint:innerRightBottom];
         [path lineToPoint:innerLeftBottom];
@@ -105,7 +101,7 @@ void drawPixelAtPoint(NSPoint p){
         [path closePath];
         [path stroke];
     }else{
-        [[NSColor colorWithCalibratedRed: 1.0 green: 0.91 blue: 0.96 alpha:1.0] set];
+        [[NSColor colorWithCalibratedRed: 0.96 green: 0.96 blue: 0.97 alpha:1.0] set];
         /* draw top and left highlight inner borders */
         NSBezierPath *path = [NSBezierPath bezierPath];
         
@@ -117,7 +113,7 @@ void drawPixelAtPoint(NSPoint p){
         [path stroke];
         
         /* draw bottom and right inner borders */
-        [[NSColor colorWithCalibratedRed: 0.42 green: 0.22 blue: 0.33 alpha:1.0] set];
+        [[NSColor colorWithCalibratedRed: 0.75 green: 0.72 blue: 0.74 alpha:1.0] set];
         path = [NSBezierPath bezierPath];
         [path moveToPoint:innerRightBottom];
         [path lineToPoint:innerLeftBottom];
@@ -128,8 +124,8 @@ void drawPixelAtPoint(NSPoint p){
     }
     
     /*= Draw 4 corner pixels
-      = Why we need to -1 to Y below? *_*
-      =*/
+     = Why we need to -1 to Y below? *_*
+     =*/
     
     [[NSColor blackColor] set];
     
