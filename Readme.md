@@ -2,7 +2,7 @@
 
 ### Why this buttons for Cocoa
 
-Once upon a time i navigate Yahoo Flickr, I saw this classical buttons style written by HTML & CSS, and I love them very much, so I spent several hours to write them out by Cocoa and Objective-C, I hope you love them too.
+Once upon a time i navigated Yahoo Flickr, I saw this classical buttons style written by HTML & CSS, and I love them very much, so I spent several hours to write them out by Cocoa and Objective-C, I hope you love them too.
 
 ### How to use
 
@@ -13,12 +13,11 @@ Once upon a time i navigate Yahoo Flickr, I saw this classical buttons style wri
 
 ### Screenshots
 
-#### Yahoo Flickr buttons in Browser 
-![image]()
+##### Yahoo Flickr buttons in Browser 
+![image](https://raw.githubusercontent.com/aaron-elkins/YahooClassicalButton/master/YahooFlickrClassicalButtons.png)
 
-#### Yahoo Flickr Buttons in Cocoa
-![image]()
-
+##### Yahoo Flickr Buttons in Cocoa
+![image](https://raw.githubusercontent.com/aaron-elkins/YahooClassicalButton/master/YahooClassicalButtonDemo.png)
 
 ### Authors
 
