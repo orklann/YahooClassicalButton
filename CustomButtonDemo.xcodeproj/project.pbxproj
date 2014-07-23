@@ -88,7 +88,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		93B98268197F95DC005D5ADA /* Yahoo Classiscal Button */ = {
+		93B98268197F95DC005D5ADA /* YahooClassiscalButton */ = {
 			isa = PBXGroup;
 			children = (
 				93B98269197F95DC005D5ADA /* YHButtonCellRed.h */,
@@ -102,13 +102,14 @@
 				93B98271197F95DC005D5ADA /* YHTools.h */,
 				93B98272197F95DC005D5ADA /* YHTools.m */,
 			);
+			name = YahooClassiscalButton;
 			path = "Yahoo Classiscal Button";
 			sourceTree = "<group>";
 		};
 		93EE0BD318C9774D00F1EFFE = {
 			isa = PBXGroup;
 			children = (
-				93B98268197F95DC005D5ADA /* Yahoo Classiscal Button */,
+				93B98268197F95DC005D5ADA /* YahooClassiscalButton */,
 				93EE0BE518C9774D00F1EFFE /* CustomButtonDemo */,
 				93EE0C0318C9774D00F1EFFE /* CustomButtonDemoTests */,
 				93EE0BDE18C9774D00F1EFFE /* Frameworks */,
