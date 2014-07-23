@@ -28,7 +28,7 @@ Once upon a time i navigated Yahoo Flickr, I saw this classical buttons style wr
 
 ### Buy me a cup of tea
 
-If you like this chunk of code, please consider [buying me a cup of tea](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MWEULNKJQ8VYA).
+If you like this chunk of code, please consider [buying me a cup of tea](https://www.pixelegg.me/buy_me_tea).
 
 ### License
 
