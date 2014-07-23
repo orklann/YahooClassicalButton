@@ -20,6 +20,12 @@ Once upon a time i navigate Yahoo Flickr, I saw this classical buttons style wri
 ![image]()
 
 
+### Authors
+
+[Aaron Elkins](http://blog.pixelegg.me)
+
+[Email Me](mailto:threcius@yahoo.com)
+
 ### License
 
 Yahoo Flickr Buttons is licensed under [MIT](http://opensource.org/licenses/MIT) license.
