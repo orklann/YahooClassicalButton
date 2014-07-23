@@ -19,11 +19,16 @@ Once upon a time i navigated Yahoo Flickr, I saw this classical buttons style wr
 ##### Yahoo Flickr Buttons in Cocoa
 ![image](https://raw.githubusercontent.com/aaron-elkins/YahooClassicalButton/master/YahooClassicalButtonDemo.png)
 
+
 ### Authors
 
 [Aaron Elkins](http://blog.pixelegg.me)
 
 [Email Me](mailto:threcius@yahoo.com)
+
+### Buy me a cup of tea
+
+If you like this chunk of code, please consider [buying me a cup of tea](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MWEULNKJQ8VYA).
 
 ### License
 
