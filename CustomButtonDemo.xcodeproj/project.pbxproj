@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		93CCE24118C9D9AA00C68195 /* YHButtonWhite.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CCE24018C9D9AA00C68195 /* YHButtonWhite.m */; };
-		93CCE24418C9D9C500C68195 /* YHButtonCellWhite.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CCE24318C9D9C500C68195 /* YHButtonCellWhite.m */; };
-		93CCE24718C9DA8D00C68195 /* YHTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CCE24618C9DA8D00C68195 /* YHTools.m */; };
+		93B98273197F95DC005D5ADA /* YHButtonCellRed.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B9826A197F95DC005D5ADA /* YHButtonCellRed.m */; };
+		93B98274197F95DC005D5ADA /* YHButtonCellWhite.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B9826C197F95DC005D5ADA /* YHButtonCellWhite.m */; };
+		93B98275197F95DC005D5ADA /* YHButtonRed.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B9826E197F95DC005D5ADA /* YHButtonRed.m */; };
+		93B98276197F95DC005D5ADA /* YHButtonWhite.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B98270197F95DC005D5ADA /* YHButtonWhite.m */; };
+		93B98277197F95DC005D5ADA /* YHTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B98272197F95DC005D5ADA /* YHTools.m */; };
 		93EE0BE018C9774D00F1EFFE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93EE0BDF18C9774D00F1EFFE /* Cocoa.framework */; };
 		93EE0BEA18C9774D00F1EFFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93EE0BE818C9774D00F1EFFE /* InfoPlist.strings */; };
 		93EE0BEC18C9774D00F1EFFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EE0BEB18C9774D00F1EFFE /* main.m */; };
@@ -21,8 +23,6 @@
 		93EE0C0018C9774D00F1EFFE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93EE0BDF18C9774D00F1EFFE /* Cocoa.framework */; };
 		93EE0C0818C9774D00F1EFFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93EE0C0618C9774D00F1EFFE /* InfoPlist.strings */; };
 		93EE0C0A18C9774D00F1EFFE /* CustomButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EE0C0918C9774D00F1EFFE /* CustomButtonDemoTests.m */; };
-		93EE0C1518C9777000F1EFFE /* YHButtonCellRed.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EE0C1418C9777000F1EFFE /* YHButtonCellRed.m */; };
-		93EE0C1818C9778000F1EFFE /* YHButtonRed.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EE0C1718C9778000F1EFFE /* YHButtonRed.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +36,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		93CCE23F18C9D9AA00C68195 /* YHButtonWhite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YHButtonWhite.h; path = CustomButtonDemo/YHButtonWhite.h; sourceTree = "<group>"; };
-		93CCE24018C9D9AA00C68195 /* YHButtonWhite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YHButtonWhite.m; path = CustomButtonDemo/YHButtonWhite.m; sourceTree = "<group>"; };
-		93CCE24218C9D9C500C68195 /* YHButtonCellWhite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YHButtonCellWhite.h; path = CustomButtonDemo/YHButtonCellWhite.h; sourceTree = "<group>"; };
-		93CCE24318C9D9C500C68195 /* YHButtonCellWhite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YHButtonCellWhite.m; path = CustomButtonDemo/YHButtonCellWhite.m; sourceTree = "<group>"; };
-		93CCE24518C9DA8D00C68195 /* YHTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YHTools.h; path = CustomButtonDemo/YHTools.h; sourceTree = "<group>"; };
-		93CCE24618C9DA8D00C68195 /* YHTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YHTools.m; path = CustomButtonDemo/YHTools.m; sourceTree = "<group>"; };
+		93B98269197F95DC005D5ADA /* YHButtonCellRed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHButtonCellRed.h; sourceTree = "<group>"; };
+		93B9826A197F95DC005D5ADA /* YHButtonCellRed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHButtonCellRed.m; sourceTree = "<group>"; };
+		93B9826B197F95DC005D5ADA /* YHButtonCellWhite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHButtonCellWhite.h; sourceTree = "<group>"; };
+		93B9826C197F95DC005D5ADA /* YHButtonCellWhite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHButtonCellWhite.m; sourceTree = "<group>"; };
+		93B9826D197F95DC005D5ADA /* YHButtonRed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHButtonRed.h; sourceTree = "<group>"; };
+		93B9826E197F95DC005D5ADA /* YHButtonRed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHButtonRed.m; sourceTree = "<group>"; };
+		93B9826F197F95DC005D5ADA /* YHButtonWhite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHButtonWhite.h; sourceTree = "<group>"; };
+		93B98270197F95DC005D5ADA /* YHButtonWhite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHButtonWhite.m; sourceTree = "<group>"; };
+		93B98271197F95DC005D5ADA /* YHTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHTools.h; sourceTree = "<group>"; };
+		93B98272197F95DC005D5ADA /* YHTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHTools.m; sourceTree = "<group>"; };
 		93EE0BDC18C9774D00F1EFFE /* CustomButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93EE0BDF18C9774D00F1EFFE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		93EE0BE218C9774D00F1EFFE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -61,10 +65,6 @@
 		93EE0C0518C9774D00F1EFFE /* CustomButtonDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomButtonDemoTests-Info.plist"; sourceTree = "<group>"; };
 		93EE0C0718C9774D00F1EFFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		93EE0C0918C9774D00F1EFFE /* CustomButtonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomButtonDemoTests.m; sourceTree = "<group>"; };
-		93EE0C1318C9777000F1EFFE /* YHButtonCellRed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YHButtonCellRed.h; path = CustomButtonDemo/YHButtonCellRed.h; sourceTree = "<group>"; };
-		93EE0C1418C9777000F1EFFE /* YHButtonCellRed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YHButtonCellRed.m; path = CustomButtonDemo/YHButtonCellRed.m; sourceTree = "<group>"; };
-		93EE0C1618C9778000F1EFFE /* YHButtonRed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YHButtonRed.h; path = CustomButtonDemo/YHButtonRed.h; sourceTree = "<group>"; };
-		93EE0C1718C9778000F1EFFE /* YHButtonRed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YHButtonRed.m; path = CustomButtonDemo/YHButtonRed.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,27 +88,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		93CCE24818C9DBDE00C68195 /* YahooButton */ = {
+		93B98268197F95DC005D5ADA /* Yahoo Classiscal Button */ = {
 			isa = PBXGroup;
 			children = (
-				93CCE23F18C9D9AA00C68195 /* YHButtonWhite.h */,
-				93CCE24018C9D9AA00C68195 /* YHButtonWhite.m */,
-				93CCE24218C9D9C500C68195 /* YHButtonCellWhite.h */,
-				93CCE24318C9D9C500C68195 /* YHButtonCellWhite.m */,
-				93EE0C1618C9778000F1EFFE /* YHButtonRed.h */,
-				93EE0C1718C9778000F1EFFE /* YHButtonRed.m */,
-				93EE0C1318C9777000F1EFFE /* YHButtonCellRed.h */,
-				93EE0C1418C9777000F1EFFE /* YHButtonCellRed.m */,
-				93CCE24518C9DA8D00C68195 /* YHTools.h */,
-				93CCE24618C9DA8D00C68195 /* YHTools.m */,
+				93B98269197F95DC005D5ADA /* YHButtonCellRed.h */,
+				93B9826A197F95DC005D5ADA /* YHButtonCellRed.m */,
+				93B9826B197F95DC005D5ADA /* YHButtonCellWhite.h */,
+				93B9826C197F95DC005D5ADA /* YHButtonCellWhite.m */,
+				93B9826D197F95DC005D5ADA /* YHButtonRed.h */,
+				93B9826E197F95DC005D5ADA /* YHButtonRed.m */,
+				93B9826F197F95DC005D5ADA /* YHButtonWhite.h */,
+				93B98270197F95DC005D5ADA /* YHButtonWhite.m */,
+				93B98271197F95DC005D5ADA /* YHTools.h */,
+				93B98272197F95DC005D5ADA /* YHTools.m */,
 			);
-			name = YahooButton;
+			path = "Yahoo Classiscal Button";
 			sourceTree = "<group>";
 		};
 		93EE0BD318C9774D00F1EFFE = {
 			isa = PBXGroup;
 			children = (
-				93CCE24818C9DBDE00C68195 /* YahooButton */,
+				93B98268197F95DC005D5ADA /* Yahoo Classiscal Button */,
 				93EE0BE518C9774D00F1EFFE /* CustomButtonDemo */,
 				93EE0C0318C9774D00F1EFFE /* CustomButtonDemoTests */,
 				93EE0BDE18C9774D00F1EFFE /* Frameworks */,
@@ -286,13 +286,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93CCE24718C9DA8D00C68195 /* YHTools.m in Sources */,
-				93CCE24118C9D9AA00C68195 /* YHButtonWhite.m in Sources */,
+				93B98277197F95DC005D5ADA /* YHTools.m in Sources */,
+				93B98274197F95DC005D5ADA /* YHButtonCellWhite.m in Sources */,
 				93EE0BEC18C9774D00F1EFFE /* main.m in Sources */,
-				93CCE24418C9D9C500C68195 /* YHButtonCellWhite.m in Sources */,
+				93B98276197F95DC005D5ADA /* YHButtonWhite.m in Sources */,
+				93B98273197F95DC005D5ADA /* YHButtonCellRed.m in Sources */,
+				93B98275197F95DC005D5ADA /* YHButtonRed.m in Sources */,
 				93EE0BF318C9774D00F1EFFE /* YHAppDelegate.m in Sources */,
-				93EE0C1818C9778000F1EFFE /* YHButtonRed.m in Sources */,
-				93EE0C1518C9777000F1EFFE /* YHButtonCellRed.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
